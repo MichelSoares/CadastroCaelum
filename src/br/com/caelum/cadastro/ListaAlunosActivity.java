@@ -26,7 +26,7 @@ import br.com.caelum.cadastro.modelo.Aluno;
 
 public class ListaAlunosActivity extends Activity {
 
-	private ListView lista;
+	private ListView lista; 
 	private Aluno aluno;
 
 	@Override

@@ -23,7 +23,7 @@ public class SMSReceiver extends BroadcastReceiver{
 		boolean smsEhDeAluno = new AlunoDAO(ctx).isAluno(telefone);
 		
 		if(smsEhDeAluno){
-			MediaPlayer musica = MediaPlayer.create(ctx, R.raw.games_of_thrones);
+			MediaPlayer musica = MediaPlayer.create(ctx, R.raw.games_of_thrones); 
 			musica.start();
 		}
 		
